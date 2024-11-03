@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import plotly.io as pio
 
 # Setting Default Theme for plotly graphs
-pio.templates.default = "simple_white"
+pi.templates.default = "simple_white"
 
 # Reading data from GitHub repository
 df = pd.read_csv("price.csv")
