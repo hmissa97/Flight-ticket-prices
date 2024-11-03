@@ -200,7 +200,8 @@ if selected == "Price Check":
 
         # Departure Time
         st.subheader("Departure Time")
-        departure = st.selectbox("", ['Morning', 'Afternoon', 'Evening', 'Night'])
+        departure = st.selectbox("Departure Time", ['Morning', 'Afternoon', 'Evening'], key="departure_time")
+
         st.write("You will leave in the ", departure)
 
         # Ticket Class
